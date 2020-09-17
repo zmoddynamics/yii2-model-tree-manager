@@ -6,13 +6,13 @@
  * @version   1.1.3
  */
 
-namespace kartik\tree;
+namespace zmoddynamics\tree;
 
 use Closure;
 use kartik\base\Config;
 use kartik\base\Widget;
 use kartik\dialog\Dialog;
-use kartik\tree\models\Tree;
+use zmoddynamics\tree\models\Tree;
 use Yii;
 use yii\base\InvalidConfigException;
 use kartik\base\PluginAssetBundle;
@@ -1399,7 +1399,7 @@ HTML;
         if (empty($class) || !is_subclass_of($class, ActiveRecord::class)) {
             throw new InvalidConfigException("The 'query' must be implemented using 'ActiveRecord::find()' method.");
         }
-        $trait = 'kartik\tree\models\TreeTrait';
+        $trait = 'zmoddynamics\tree\models\TreeTrait';
         if (!self::usesTrait($class, $trait)) {
             throw new InvalidConfigException(
                 "The model class '{$class}' for the 'query' must use the trait '{$trait}' or extend from '" .

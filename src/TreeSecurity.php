@@ -6,10 +6,10 @@
  * @version   1.1.3
  */
 
-namespace kartik\tree;
+namespace zmoddynamics\tree;
 
 use Closure;
-use kartik\tree\models\Tree;
+use zmoddynamics\tree\models\Tree;
 use Yii;
 use yii\base\InvalidCallException;
 use yii\base\InvalidConfigException;

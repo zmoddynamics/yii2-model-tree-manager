@@ -6,7 +6,7 @@
  * @version   1.1.3
  */
 
-namespace kartik\tree;
+namespace zmoddynamics\tree;
 
 use kartik\base\AssetBundle;
 

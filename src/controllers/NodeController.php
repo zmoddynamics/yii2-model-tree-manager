@@ -6,14 +6,14 @@
  * @version   1.1.3
  */
 
-namespace kartik\tree\controllers;
+namespace zmoddynamics\tree\controllers;
 
 use Closure;
 use Exception;
-use kartik\tree\Module;
-use kartik\tree\models\Tree;
-use kartik\tree\TreeView;
-use kartik\tree\TreeSecurity;
+use zmoddynamics\tree\Module;
+use zmoddynamics\tree\models\Tree;
+use zmoddynamics\tree\TreeView;
+use zmoddynamics\tree\TreeSecurity;
 use Yii;
 use yii\base\ErrorException;
 use yii\base\Event;

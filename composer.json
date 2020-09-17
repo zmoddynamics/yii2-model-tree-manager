@@ -1,11 +1,11 @@
 {
-    "name": "kartik-v/yii2-tree-manager",
+    "name": "zmoddynamics/yii2-tree-manager",
     "description": "An enhanced tree management module with tree node selection and manipulation using nested sets.",
     "keywords": [
         "bootstrap",
         "tree",
         "treeview",
-        "krajee",
+        "zmoddynamics",
         "hierarchy",
         "nested",
         "set",
@@ -13,14 +13,14 @@
         "ajax",
         "jquery"
     ],
-    "homepage": "https://github.com/kartik-v/yii2-tree-manager",
+    "homepage": "https://github.com/zmoddynamics/yii2-model-tree-manager",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Kartik Visweswaran",
-            "email": "kartikv2@gmail.com",
-            "homepage": "http://www.krajee.com/"
+            "name": "ZModDynamics",
+            "email": "info@zmoddynamics.com",
+            "homepage": "//zmoddynamics.com"
         }
     ],
     "require": {
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "kartik\\tree\\": "src"
+            "zmoddynamics\\tree\\": "src"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.1.x-dev"
+            "dev-master": "1.0.x-dev"
         }
     }
 }

@@ -6,9 +6,9 @@
  */
 
 use kartik\form\ActiveForm;
-use kartik\tree\Module;
-use kartik\tree\TreeView;
-use kartik\tree\models\Tree;
+use zmoddynamics\tree\Module;
+use zmoddynamics\tree\TreeView;
+use zmoddynamics\tree\models\Tree;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\web\View;

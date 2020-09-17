@@ -6,11 +6,11 @@
  * @version   1.1.3
  */
 
-namespace kartik\tree\models;
+namespace zmoddynamics\tree\models;
 
 use creocoder\nestedsets\NestedSetsBehavior;
-use kartik\tree\Module;
-use kartik\tree\TreeView;
+use zmoddynamics\tree\Module;
+use zmoddynamics\tree\TreeView;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;

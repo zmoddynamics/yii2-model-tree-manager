@@ -49,6 +49,10 @@ CREATE TABLE tbl_tree (
     COMMENT 'Whether the node is removable along with descendants',
     child_allowed TINYINT(1)   NOT NULL DEFAULT TRUE
     COMMENT 'Whether to allow adding children to the node',
+    model_id INT(11)  DEFAULT NULL
+    COMMENT 'the related active model id',
+    model_class       VARCHAR(255)  DEFAULT NULL
+    COMMENT 'The related model classname',
     KEY tbl_tree_NK1 (root),
     KEY tbl_tree_NK2 (lft),
     KEY tbl_tree_NK3 (rgt),

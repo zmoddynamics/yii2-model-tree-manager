@@ -6,7 +6,7 @@
  * @version   1.1.3
  */
 
-namespace kartik\tree;
+namespace zmoddynamics\tree;
 
 use yii\helpers\Url;
 use yii\helpers\ArrayHelper;
@@ -71,7 +71,7 @@ class Module extends \kartik\base\Module
     public $dataStructure = [];
 
     /**
-     * @var string the name to identify the nested set behavior name in the [[\kartik\tree\models\Tree]] model.
+     * @var string the name to identify the nested set behavior name in the [[\zmoddynamics\tree\models\Tree]] model.
      */
     public $treeBehaviorName = 'tree';
 

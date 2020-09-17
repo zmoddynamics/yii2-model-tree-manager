@@ -6,7 +6,7 @@
  * @version   1.1.3
  */
 
-namespace kartik\tree\models;
+namespace zmoddynamics\tree\models;
 
 use yii\db\ActiveRecord;
 
@@ -52,7 +52,7 @@ class Tree extends ActiveRecord
 
     /**
      * @var string the classname for the TreeQuery that implements the NestedSetQueryBehavior.
-     * If not set this will default to `kartik\tree\models\TreeQuery`.
+     * If not set this will default to `zmoddynamics\tree\models\TreeQuery`.
      */
     public static $treeQueryClass;
 
